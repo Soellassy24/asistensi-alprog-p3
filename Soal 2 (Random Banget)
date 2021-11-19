@@ -18,7 +18,7 @@ int main(){
             //biar ketauan berapa sih yang ketemu merah
         }
     }
-    probab=(float)totalDapatMerah/jumlahBola*100;
+    probab=(float)totalDapatMerah/sample*100;
     //interger dibagi interger, tapi hasilnya harus float. Dikonversi dulu jadi pake(float)
     printf("Probabilitas terambilnya bola merah dari kantong berisi %d bola adalah : %.2f persen", jumlahBola, probab);
     return 0;
